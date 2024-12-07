@@ -43,7 +43,7 @@ class TodoCubit extends Cubit<List<Todo>> {
   }
 
   //TOGGLE
-  Future<void> toggleCOmpletion(Todo todo) async {
+  Future<void> toggleCompletion(Todo todo) async {
     //toggle the completion status of provided todo
     final updatedTodo = todo.toggleCompletion();
 
